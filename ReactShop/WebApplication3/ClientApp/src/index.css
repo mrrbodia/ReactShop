@@ -1,0 +1,211 @@
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2EEE9;
+    font: normal 13px/1.5 Georgia, Serif;
+    color: #333;
+}
+
+.clear {
+    clear: both;
+}
+
+.productlist {
+    display: block;
+    margin: 20px 0;
+}
+
+.productBox{
+    max-width: 950px;
+}
+
+.product {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 300px;
+    padding: 10px;
+    height: 430px;
+}
+
+.item img {
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+
+button {
+    border: 1px solid #722A1B;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #722A1B;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shopping-cart {
+    display: inline-block;
+    background: url('http://cdn1.iconfinder.com/data/icons/jigsoar-icons/24/_cart.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+
+.basket{
+    float: right;
+    min-width: 400px;
+    width: 30%
+}
+
+.shopping-cart {
+    margin: 20px 0;
+    float: right;
+    background: white;
+    width: 320px;
+    position: relative;
+    border-radius: 3px;
+    padding: 20px;
+    height: 100%;
+}
+
+    .shopping-cart .shopping-cart-header {
+        border-bottom: 1px solid #E8E8E8;
+        padding-bottom: 15px;
+    }
+
+.cart-icon {
+    color: #515783;
+    font-size: 24px;
+    margin-right: 7px;
+    float: left;
+}
+
+.shopping-cart .shopping-cart-header .shopping-cart-total {
+    float: right;
+}
+
+.lighter-text {
+    color: #ABB0BE;
+}
+
+.main-color-text {
+    color: #6394F8;
+}
+
+.shopping-cart .shopping-cart-items {
+    padding-top: 20px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.shopping-cart .shopping-cart-items li {
+    margin-bottom: 18px;
+}
+
+.shopping-cart .shopping-cart-items .item-name {
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.shopping-cart .shopping-cart-items .item-price {
+    color: #6394F8;
+    margin-right: 8px;
+}
+
+.shopping-cart .shopping-cart-items .item-quantity {
+    color: #ABB0BE;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+}
+
+.item-change-quantity{
+    width: 100%
+}
+
+div {
+    margin: 0;
+    padding: 0;
+     border: 0; 
+     font-size: 100%; 
+     font: inherit; 
+     vertical-align: baseline;
+     display: block;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.shopping-cart:after {
+    bottom: 100%;
+    left: 89%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: white;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shopping-cart .shopping-cart-items img {
+    float: left;
+    margin-right: 12px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
